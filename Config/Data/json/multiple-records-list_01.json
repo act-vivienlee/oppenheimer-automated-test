@@ -1,0 +1,18 @@
+[
+  {
+    "birthday": "10041967",
+    "gender": "F",
+    "name": "TEST CLIENT A",
+    "natid": "T1000000A",
+    "salary": "5000",
+    "tax": "550.50"
+  },
+  {
+    "birthday": "01021946",
+    "gender": "F",
+    "name": "TEST CLIENT B",
+    "natid": "T1010000A",
+    "salary": "5000",
+    "tax": "550.50"
+  }
+]

@@ -1,0 +1,13 @@
+baseURL: 'http://localhost:8080/'
+browser: 'Chrome'
+
+## API headers
+contentTypeName: 'Content-Type'
+contentTypeValue: 'application/json'
+
+oppenheimerTitle: 'The Oppenheimer Project'
+
+## Table Headers
+taxReliefTableHeaders:
+  - NatId
+  - Relief

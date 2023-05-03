@@ -1,0 +1,11 @@
+### API Endpoints
+## calculator-controller
+calInsertAPI: 'calculator/insert'
+calInsertMultipleAPI: 'calculator/insertMultiple'
+calInsertRandToDBAPI: '/calculator/insertRandomToDatabaseForNoReason'
+calTaxReliefAPI: 'calculator/taxRelief'
+calTaxReliefSummayAPI: 'calculator/taxReliefSummary'
+calUploadLargeFileAPI: 'calculator/uploadLargeFileForInsertionToDatabase'
+
+## home-controller
+homeDispenseAPI: 'dispense'
