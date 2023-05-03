@@ -26,3 +26,15 @@ This section contains the python libaries/modules required to execute this proje
   ![image](https://user-images.githubusercontent.com/131746992/235864798-7e9faade-f036-4e9a-b516-4a160d07e211.png)<p>
   For example, if your Chrome is v112, please download the one for v112.
   3. Once you have installed the chromedriver, place it in your Python Script folder. It is usually found in ```C:\Users\your-username\AppData\Local\Programs\Python\[Python Version]\Scripts```
+
+## FOLDER HIERARCHY
+### Config
+This folder contains all relevant test data in either csv, xlsx or json format.
+### Lib
+This folder contains all the necessary python functions used in this Project. E.g. the Python function to call POST/GET requests
+### POM
+This folder stores all the Page Object Models (POMs) or in other words, the web elements, used in this Project. API endpoints, as well as other variables are stored here too.
+### StepDefinition
+This folder contains all the keywords' step definitions, as well as a common import file that can be shared across all test scripts.
+### TestSuite
+This folder consists of all the API & UI test scripts.
