@@ -16,6 +16,10 @@ This section contains the python libaries/modules required to execute this proje
   ```sh
   pip install robotframework-seleniumlibrary
   ```
+* Datadriver
+  ```sh
+  pip install robotframework-datadriver
+  ```
 * Requests (used for API)
   ```sh
   pip install requests
