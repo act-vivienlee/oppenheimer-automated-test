@@ -1,4 +1,4 @@
-## GETTING STARTED
+## Getting Started
 ### Pre-requisites
 Please ensure that you have the following installed before proceeding to the next section.
 * <b>Python</b>  <p>
@@ -27,7 +27,7 @@ This section contains the python libaries/modules required to execute this proje
   For example, if your Chrome is v112, please download the one for v112.
   3. Once you have installed the chromedriver, place it in your Python Script folder. It is usually found in ```C:\Users\your-username\AppData\Local\Programs\Python\[Python Version]\Scripts```
 
-## FOLDER HIERARCHY
+## Folder Hierarchy
 ### Config
 This folder contains all relevant test data in either csv, xlsx or json format.
 ### Lib
@@ -38,3 +38,23 @@ This folder stores all the Page Object Models (POMs) or in other words, the web 
 This folder contains all the keywords' step definitions, as well as a common import file that can be shared across all test scripts.
 ### TestSuite
 This folder consists of all the API & UI test scripts.
+
+## How to Run the Scripts?
+1. Clone this project
+    ```sh
+    git clone https://github.com/act-vivienlee/oppenheimer-automated-test.git
+    ```
+2. Open command prompt
+3. Change directory to the API/UI folder:
+    * API
+    ```sh
+    cd /path/to/project/TestSuite/API
+    ```
+    * UI
+    ```sh
+    cd /path/to/project/TestSuite/UI
+    ```
+4. A sample command to execute the script:
+    ```sh
+    robot -d Results API01_InsertSingleRecord.robot
+    ```
